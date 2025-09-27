@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 export default function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [open, setOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
   // SCROLLER EVENT START
@@ -59,15 +60,22 @@ export default function Header() {
 
           {/* RIGHT SIDE */}
           <div className="flex items-center space-x-4">
-            <span className="hidden sm:block text-sm  border rounded px-2 py-1">
+            <span className="hidden sm:block text-sm text-gray-600">
               +1 (800) 826-8018
             </span>
+            <button onClick={() => setOpen(!open)}>
+              {open ? (
+                <FaTimes className="w-6 h-6" />
+              ) : (
+                <FaBars className="w-6 h-6" />
+              )}
+            </button>
           </div>
         </div>
       </div>
 
       {/* MOBILE MENU */}
-      {isMenuOpen && (
+      {open && (
         <div className="md:hidden bg-white border-t border-gray-200">
           <div className="px-4 py-2 space-y-2">
             <a href="#home" className="block py-2 text-gray-900">

@@ -9,7 +9,7 @@ export default function Technologies() {
         <div className=" rounded-2xl  p-8">
           <div className="grid lg:grid-cols-2  items-center">
             {/* Text Section */}
-            <div className="space-y-6 bg-white border rounded-xl min-h-[35rem] h-[100%] p-12 ml-10 flex justify-center flex-col">
+            <div className="space-y-6 bg-white border rounded-xl min-h-[35rem] h-[100%] p-12 md:ml-10 flex justify-center flex-col">
               <h3 className="text-2xl font-bold text-gray-900">IOT</h3>
               <p className="text-gray-700">
                 The Internet of Things, or IOT, is like a symphony of
@@ -32,7 +32,7 @@ export default function Technologies() {
               <img
                 src="/image1.jpg" // Replace with your actual image path
                 alt="IoT Technology"
-                className="rounded-xl shadow-lg max-w-full w-full h-80 object-cover z-10 ml-[-5rem]"
+                className="rounded-xl shadow-lg max-w-full w-full h-80 object-cover z-10 md:ml-[-5rem]"
               />
             </div>
           </div>

@@ -40,7 +40,7 @@ const WhyChooseUs = () => {
           {cards.map((card) => (
             <div
               key={card.id}
-              className="bg-white rounded-[50%] w-[350px] h-[350px]  shadow-lg p-10 flex flex-col items-center hover:shadow-xl tr"
+              className="bg-white rounded-[50%] md:w-[100%] md:h-[100%] shadow-lg p-10 flex flex-col items-center hover:shadow-xl tr"
             >
               <div className="bg-gray-100 rounded-full p-6 mb-4 flex items-center justify-center">
                 {card.icon}

@@ -3,7 +3,7 @@ export default function Contact() {
     <section id="contact" className="bg-red-600">
       <div className="mx-auto grid lg:grid-cols-[65%_35%]">
         {/* LEFT SIDE (65%) */}
-        <div className="p-10 text-white w-[70%] mx-auto">
+        <div className="p-10 text-white w-[65%] mx-auto">
 
           <h3 className="text-lg font-semibold uppercase">LET'S TALK</h3>
           <h2 className="text-3xl md:text-4xl font-bold mt-2">
@@ -57,7 +57,7 @@ export default function Contact() {
             <img
               src="/image1.jpg" // replace with actual
               alt="Team meeting"
-              className="w-full h-80 object-cover"
+              className="w-full object-cover"
             />
           </div>
 

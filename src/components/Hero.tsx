@@ -12,7 +12,7 @@ export default function Hero() {
                 <img
                   src="/image3.webp"
                   alt="IoT Technology"
-                  className="rounded-xl w-[100%] h-[auto] object-cover"
+                  className="rounded-xl w-[50%] md:w-[100%] h-[auto] object-cover"
                 />
               </div>
             </div>
